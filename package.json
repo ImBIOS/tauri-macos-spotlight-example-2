@@ -1,26 +1,27 @@
 {
-  "name": "tauri-macos-spotlight-app",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "tauri": "tauri"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@tauri-apps/api": "^1.5.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20.8.10",
-    "@types/react": "^18.2.35",
-    "@types/react-dom": "^18.2.14",
-    "@vitejs/plugin-react": "^4.1.1",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0",
-    "@tauri-apps/cli": "^1.5.6"
-  }
+	"name": "tauri-macos-spotlight-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"tauri": "tauri"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"@tauri-apps/api": "^1.5.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.8.10",
+		"@types/react": "^18.2.35",
+		"@types/react-dom": "^18.2.14",
+		"@vitejs/plugin-react": "^4.1.1",
+		"typescript": "^5.2.2",
+		"vite": "^4.5.0",
+		"@tauri-apps/cli": "^1.5.6"
+	},
+	"packageManager": "pnpm@9.5.0"
 }
